@@ -1,3 +1,5 @@
+# Políticas restrictivas
+
 > **Fase:** 3 (Políticas restrictivas) 
 > **Objetivo:** preparar los controles de seguridad del FortiGate (DoS Policy, perfil de AntiVirus y perfiles de IPS) que se usarán durante las pruebas, para comparar el comportamiento del firewall sin ellos y con ellos. 
 > **Estado al cierre de este documento:** la DoS Policy está creada y activa. El perfil de AntiVirus está creado pero **no aplicado** a ninguna política. Los perfiles de IPS son los predefinidos y tampoco están aplicados. El modo de inspección de la política pasó a Proxy-based. 
