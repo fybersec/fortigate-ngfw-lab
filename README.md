@@ -1,3 +1,6 @@
+<p align="center"> <img src="https://github.com/fybersec/fortigate-ngfw-lab/blob/main/evidencias/docs/01-topologia/Diagrama.png" width="900"> </p>
+
+
 # Laboratorio FortiGate NGFW
 
 Laboratorio para practicar la configuración y comprobación de un firewall FortiGate (NGFW), tras obtener la certificación NSE 2 de Fortinet. El objetivo no fue solo levantar el entorno, sino **comprobar** que las reglas configuradas realmente se respetan: se configura una política o un perfil de seguridad y luego se ataca desde Kali para ver si el firewall reacciona como se espera.
@@ -5,9 +8,6 @@ Laboratorio para practicar la configuración y comprobación de un firewall Fort
 **Metodología.** Este laboratorio se hizo con el objetivo explícito de depender lo menos posible de la IA y lo más posible de documentación oficial. Las configuraciones del FortiGate se buscaron en docs.fortinet.com, el Fortinet Training Institute y canales de ingenieros en YouTube; la instalación de Docker y WordPress siguió documentación oficial y un tutorial específico se usó como apoyo puntual: redacción, orden de la documentación, diagnóstico de errores guiado y revisión antes de publicar, nunca para generar configuraciones del FortiGate de memoria.
 
 ## Topología
-
-<p align="center"> <img src="https://github.com/fybersec/fortigate-ngfw-lab/blob/main/evidencias/docs/01-topologia/Diagrama.png" width="900"> </p>
-
 
 |Red|Subred|Máquina|Interfaz del FortiGate|
 |---|---|---|---|
